@@ -69,10 +69,10 @@
 					<!-- jgitflow:hotfix-finish Finishes a hotfix -->
 					<!-- jgitflow:build-number Updates the pom versions in the current branch 
 						by adding a build number label -->
-						<configuration>
-      						<username>venkatasalam</username>
-      						<password>rojavanam1</password>
-    					</configuration>
+						
+      				<username>venkatasalam</username>
+      				<password>rojavanam1</password>
+    					
 				</configuration>
 			</plugin>
 		</plugins>
