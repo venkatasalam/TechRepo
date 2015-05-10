@@ -11,6 +11,13 @@
 	<properties>
 		<spring.version>3.0.5.RELEASE</spring.version>
 	</properties>
+	
+	<scm>
+		<connection>scm:git:https://github.com/venkatasalam/TechRepo.git</connection>
+		
+		<developerConnection>scm:git:git@github.com:venkatasalam/TechRepo.git</developerConnection>
+		<url>https://github.com/venkatasalam/TechRepo</url>
+	</scm>
 
 	<dependencies>
 
@@ -43,6 +50,26 @@
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.atlassian.maven.plugins</groupId>
+				<artifactId>maven-jgitflow-plugin</artifactId>
+				<version>1.0-alpha21.1</version>
+				<configuration>
+					<!-- performs only install (not deploy) during release-finish -->
+					<noDeploy>true</noDeploy>
+					<pushReleases>true</pushReleases>
+					<pushHotfixes>true</pushHotfixes>
+					<!-- jgitflow:feature-start Starts a feature branch -->
+					<!-- jgitflow:feature-finish Finishes a feature branch -->
+					<!-- jgitflow:release-start Starts a release -->
+					<!-- jgitflow:release-finish Finishes a release -->
+					<allowUntracked>true</allowUntracked>
+					<!-- jgitflow:hotfix-start Starts a hotfix -->
+					<!-- jgitflow:hotfix-finish Finishes a hotfix -->
+					<!-- jgitflow:build-number Updates the pom versions in the current branch 
+						by adding a build number label -->
 				</configuration>
 			</plugin>
 		</plugins>
