@@ -9,9 +9,7 @@
 
 	<properties>
 		<spring.version>3.0.5.RELEASE</spring.version>
-
        <project.scm.id>git</project.scm.id>
-
 	</properties>
 	
 	<scm>
@@ -57,7 +55,7 @@
 			<plugin>
 				<groupId>com.atlassian.maven.plugins</groupId>
 				<artifactId>maven-jgitflow-plugin</artifactId>
-				<version>1.0-alpha27</version>
+				<version>1.0-m4</version>
 				<configuration>
 					<!-- performs only install (not deploy) during release-finish -->
 					<noDeploy>true</noDeploy>
