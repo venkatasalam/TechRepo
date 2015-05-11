@@ -9,7 +9,7 @@
 
 	<properties>
 		<spring.version>3.0.5.RELEASE</spring.version>
-       <project.scm.id>git</project.scm.id>
+       <project.scm.id>github.com</project.scm.id>
 	</properties>
 	
 	<scm>
