@@ -3,7 +3,7 @@
 	<groupId>com.mkyong.common</groupId>
 	<artifactId>SpringMVC</artifactId>
 	<packaging>war</packaging>
-	<version>1.7-SNAPSHOT</version>
+	<version>1.6</version>
 	<name>SpringMVC Maven application</name>
 	<url>http://maven.apache.org</url>
 
