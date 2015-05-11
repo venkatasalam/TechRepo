@@ -55,7 +55,7 @@
 			<plugin>
 				<groupId>com.atlassian.maven.plugins</groupId>
 				<artifactId>maven-jgitflow-plugin</artifactId>
-				<version>1.0-m4</version>
+				<version>1.0-m4.3</version>
 				<configuration>
 					<!-- performs only install (not deploy) during release-finish -->
 					<noDeploy>true</noDeploy>
