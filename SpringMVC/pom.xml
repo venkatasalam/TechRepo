@@ -5,7 +5,7 @@
 	<packaging>war</packaging>
 	<version>2.6</version>
 	<name>SpringMVC Maven application</name>
-	<url>http://maven.apache.org12</url>
+	<url>http://maven.apache.org122</url>
 
 	<properties>
 		<spring.version>3.0.5.RELEASE</spring.version>
