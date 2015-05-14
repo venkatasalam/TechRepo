@@ -3,7 +3,7 @@
 	<groupId>com.singpost.example</groupId>
 	<artifactId>SpringMVC</artifactId>
 	<packaging>war</packaging>
-	<version>3.2</version>
+	<version>3.3000000000000003-SNAPSHOT</version>
 	<name>SpringMVC Maven application</name>
 	<url>http://ezycommerce.com</url>
 
